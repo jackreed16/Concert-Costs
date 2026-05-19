@@ -19,6 +19,8 @@ Open a terminal in this folder and run:
 npm install
 ```
 
+The repo includes `.npmrc` with `legacy-peer-deps=true` so installs work with React 19 and `react-simple-maps` (required for Vercel and local `npm install`).
+
 ### 2. Set up the database in Supabase
 
 The app needs a `concerts` table with security rules so each user only sees their own data.
