@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: corporate --default, light, dark --prefersdark, cupcake, synthwave, forest;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+}
